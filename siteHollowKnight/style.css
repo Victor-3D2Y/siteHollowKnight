@@ -1,0 +1,80 @@
+@charset "UTF-8";
+:root{
+    --azulDaPrússia: #0B3142;
+    --amarelo:#FCA311;
+    --cinzaClaro:#ACD2ED;
+    --cinzaEscuro:#708B75
+    --marrom:#56351E;
+    --preto:#000000;
+    --branco:#ffffff;
+
+
+}
+body{
+    background-color: var(--azulDaPrússia);
+    
+
+}
+
+h1{
+    color: #ffffff;
+    border: 2px solid var(--amarelo);
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    color: #ffffff;
+}
+h3{
+    color: #ffffff;
+}
+h4{
+    color: #ffffff;
+}
+span{
+    font-style: italic;
+}
+img{
+    width:300px;
+    height:200px;
+
+}
+
+p{
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+    margin-bottom: 15   px;
+}
+ul{
+    color: #ffffff;
+}
+
+label{
+    color: #ffffff;
+}
+legend{
+    color: #ffffff;
+}
+
+a:active {
+    background-color: var(--cinzaClaro);
+} 
+a:visited {
+    color: #ffffff;
+}
+nav{
+    background-color:#000000 ;
+}
+footer{
+    text-align: center;
+}
+
+/* #000000 */
+/* #ffffff */
+/* #0B3142 */
+/* #FCA311 */
+/* #ACD2ED */
+/* #708B75 */
+/* #56351E */
